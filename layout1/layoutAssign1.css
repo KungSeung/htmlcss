@@ -1,0 +1,55 @@
+/* 
+selector 문법 
+공백(spacebar) : ~안에 있는 모든자식 
+> : ~안에 있는 직계자식
+*/
+
+.navbar > li {
+  display: inline-block;
+}
+
+.container {
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  width: 70vw;
+  height: 30vh;
+  border: 1px solid black;
+  background-color: antiquewhite;
+  float: left;
+}
+
+.blog {
+  width: 100%;
+  height: 30vh;
+  clear: both;
+  background-color: azure;
+}
+
+.blog-title {
+  width: 90%;
+  height: 20%;
+  background-color: red;
+}
+
+.blog-content {
+  width: 90%;
+  height: 70%;
+  background-color: darkblue;
+}
+
+.right {
+  width: 20vw;
+  height: 30vh;
+  border: 1px solid orange;
+  float: right;
+}
+
+.imgMe {
+  width: 20vw;
+  height: 30vh;
+}
