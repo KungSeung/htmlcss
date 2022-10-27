@@ -1,8 +1,50 @@
-.main-title {
-  text-align: center;
-  font-size: 50px;
-  font-style: bold;
+.form-background {
+  background-color: black;
+  padding: 30px;
 }
 
-.main-email {
+.form-white {
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* border-box 유용하게 쓰임 */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.w-50 {
+  width: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+
+.form-long {
+  height: 100px;
+}
+
+.yellow-button {
+  width: 120px;
+  height: 30px;
+  color: white;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  float: right;
+  background-color: yellow;
+  border-radius: 10%;
+  border: solid 1px yellow;
 }
